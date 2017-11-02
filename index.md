@@ -56,6 +56,7 @@ In lecture we learned that training and evaluating a neural network involves a s
 ### SCHEDULE 
 
 Monday, November 6th
+
 Do enough research to understand what computations are involved in training a neural network. 
 Write pseudocode for training the neural network. 
 Decide what parameters of the game to modify (altitude of pipes, distance between them, etc.) 
@@ -63,23 +64,28 @@ Decide how to encode these parameters as input and how to measure output (score 
 Read and understand assignment handout from Diego’s AI class. 
 
 Monday, November 13th
+
 Have a working serial implementation that runs on CPUs. 
 Write render code that will render the game in real-time on GPUs. Speed of the renderer will be based on how much time it takes to train the network. 
 Write render code that will render the game in real-time on CPUs. Speed of the renderer will be based on how much time it takes to train the network. 
 
 Monday, November 20th
+
 Have a working parallel implementation that runs on the GPUs.
 Determine whether GPUs are the best device that we want to be using for this project. 
 Compare performance on GPUs to performance on CPUs. Hope to have speedup of at least 5x. This is an arbitrary number that serves just as a ballpark number. 
 
 Monday, November 27th
+
 Further optimize parallel implementation that runs on the GPUs. Specifically, we want to have optimized the matrix multiplication aspect of the program. 
 Start optimizing the data storage and management portion of the program. Can the amount of data that is created by reduced using (lossy) compression? 
 
 Monday, December 4th
+
 Keep optimizing parallel implementation that runs on GPUs using various methods, including data compression and approximation. We suspect this will take time to implement and debug. 
 
 Tuesday, December 12th
+
 Finish optimizing GPU implementation, possibly using various innovative, creative methods that were alluded to or weren’t discussed in lecture. We want to hand-tune the performance of our implementation so that it accomplishes the specific task of learning to play Flappy Bird as fast as possible. 
 Record performance statistics and document them. Discuss our results in a document and reflect on the various things we tried, analyzing their outcomes. 
 Get ready for final presentation and demo. 
